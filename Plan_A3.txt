@@ -1,0 +1,47 @@
+CMPT 201 -Assignment 3: Milestone Plan 
+Group name: CodeX 
+Group Members: Lara, Emem, Andy, Gabrielle
+
+
+Timeline for 1-2 is from March 25-April 1, 2025
+1) Database Module/Structures & File handling - Andy & Emem
+    Primary Files: DB.c, DB.h
+    Responsibilities: 
+                     importDB(file name) -Andy
+                     exportDB(file name) - Emem
+                     implementing the lookup table (hash table)
+                     have to assign unique tableID and parse all.csv and no duplicates 
+
+2) Query, Edit, Sort, Report functions - Gabby & Lara
+   Primary Files: DB.c 
+   Responsibilities: 
+                     implentation of countEntries(memberName, value)
+                     sortByMember(membername) -Gabby
+                     editTableEntry(tableID, memberNamee, newValue) -Lara 
+                     reportByWard() -Gabby
+                     reportByNeighbourhood() -Lara 
+                     -ensure memberName validation 
+                     maintain sorting and editing for all fields (make sure it's correct) 
+                     -handle type conversion
+
+
+
+
+Timeline for 3 is from April 2-3, 2025
+3) Testing, Documentation, Dashboard - Gabby, Lara, Andy, Emem
+   Primary Files: dashboard.c, makefile, README, design.txt, testing.txt 
+   Responsibilities: 
+                    creating a interactive dashboard for: Andy 
+                                                        importing/exporting
+                                                        query, sorting, editing
+                                                        reporting and exiting  
+                    makefile - with targets  for compiling and testing -Gabby
+                    README -explaining files and usage -Lara
+                    design.txt -documenting choices, structures etc -Emem
+                    testing.txt -describing what and how we tested and why is is sufficient -Emem
+
+              
+
+Anticipated Issues 
+- merging what each group memeber work along with making sure we communicate on variable names. 
+- managing lookup table consistency during editing 
