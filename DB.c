@@ -15,4 +15,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-void importDB(filename
+// has to have char?
+void importDB(char* filename){
+  FILE *fptr = fopen(filename, "r");
+  if(!fptr){
+    printf("Error: file %s could not be opened\n", filename);
+    return;
+  }
+
+
+  
