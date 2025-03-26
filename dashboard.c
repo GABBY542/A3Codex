@@ -15,7 +15,24 @@
 #include <unistd.h>
 #include "DB.h"
 
+// the things of the headers 
 int main(int argc, char *argv[]){
+    int choice;
+
+    while((choice = getopt(argc, argv, “:abcdef:”)) != -1){  
+        switch(choice){
+            case 'a':
+            
+            case 'b':
+            
+            case 'c':
+            
+            case 'd':
+            
+            case 'e':
+
+            case '?':
+    
 
 
     return 0;
