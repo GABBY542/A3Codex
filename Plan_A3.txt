@@ -15,7 +15,7 @@ Timeline for 1-2 is from March 25-April 1, 2025
 2) Query, Edit, Sort, Report functions - Gabby & Lara
    Primary Files: DB.c 
    Responsibilities: 
-                     implentation of countEntries(memberName, value)
+                     implentation of countEntries(memberName, value) -Emem
                      sortByMember(membername) -Gabby
                      editTableEntry(tableID, memberNamee, newValue) -Lara 
                      reportByWard() -Gabby
