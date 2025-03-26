@@ -18,7 +18,8 @@
  * WHICH WILL BE FIELDS IN THE STRUCT DataBase BELOW. YOU MAY DECLARE ADDITIONAL
  * STRUCTS AS NEEDED.
  */
-# Struct Table, NeighbourhoodTable, AND PicnicTable
+
+
 /*
  * The INIT_SIZE is only relevant if you are using arrays for your data structures. 
  * If you are using linked lists you will not need it
