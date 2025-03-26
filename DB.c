@@ -10,3 +10,7 @@
 
 #include "DB.h"       /* Import the public database header. */
 #include "DB_impl.h"  /* Import the private database header */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
