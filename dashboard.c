@@ -10,6 +10,9 @@
 */
 
 //You may include other original headers as you see fit
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include "DB.h"
 
 int main(int argc, char *argv[]){
