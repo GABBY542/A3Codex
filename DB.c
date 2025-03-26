@@ -16,14 +16,3 @@
 #include <string.h>
 
 void importDB(filename
-void interMenu()
-
-
-
-
-
-
-int main() {
-    interMenu();
-
-    return 0;
